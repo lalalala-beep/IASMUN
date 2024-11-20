@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="%sveltekit.assets%/favicon.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Open+Sans&display=swap"
+			rel="stylesheet"
+		/>
+
+		%sveltekit.head%
+
+		<style>
+			:root {
+				--teal: #204e60;
+				--blue: #122a44;
+				--dark-grey: #a4a4a5;
+				--light-grey: #d9d9d9;
+			}
+
+			@font-face {
+				font-family: 'Copperplate Gothic';
+				font-style: normal;
+				font-weight: 400;
+				src: url('%sveltekit.assets%/fonts/copperplate gothic.otf') format('opentype');
+				font-display: swap;
+			}
+			html {
+				height: 100vh;
+				scroll-behavior: smooth;
+			}
+			html,
+			body {
+				min-height: 100%;
+				min-width: 100%;
+				padding: 0;
+				margin: 0;
+				overflow-x: hidden;
+			}
+			img {
+				user-select: none;
+			}
+		</style>
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents">%sveltekit.body%</div>
+	</body>
+</html>

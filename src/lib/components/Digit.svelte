@@ -1,0 +1,138 @@
+<script lang="ts">
+	export let position: number;
+	export let val: string | number;
+
+	let prev = val;
+
+	const positionTitles = ['DAYS', 'HOURS', 'MINUTES', 'SECONDS'];
+</script>
+
+{#key val}
+	<figure>
+		<figcaption>
+			<h2>{positionTitles[position]}</h2>
+		</figcaption>
+
+		<div class="cont">
+			<div class="el top">
+				<data>{val}</data>
+			</div>
+			<div
+				class="el next front"
+				on:animationend={(target) => (target.currentTarget.style.visibility = 'hidden')}
+			>
+				<data>{prev}</data>
+			</div>
+			<div class="el next back" on:animationend={() => (prev = val)}>
+				<data>{val}</data>
+			</div>
+			<div class="el bottom">
+				<data>{prev}</data>
+			</div>
+		</div>
+	</figure>
+{/key}
+
+<style>
+	@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+	figure {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	figcaption {
+		order: 2;
+		font-size: 20px;
+		margin-top: -4px;
+		font-family: 'Inter', sans-serif;
+	}
+
+	.cont {
+		order: 1;
+		border-radius: 0.2em;
+		position: relative;
+		color: white;
+		perspective-origin: center;
+		perspective: 250px;
+		box-shadow: 0 6px 2px -2px rgba(8, 3, 12, 0.5);
+	}
+
+	.el {
+		position: relative;
+		width: 3ch;
+		border-radius: 0.2em;
+		background-color: var(--teal);
+		font-size: 50px;
+		line-height: 100%;
+		letter-spacing: initial;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		overflow: hidden;
+		transform-style: preserve-3d;
+	}
+
+	data {
+		position: relative;
+	}
+
+	.top,
+	.bottom {
+		z-index: 1;
+	}
+
+	.top,
+	.front {
+		/* opacity: 0.8; */
+	}
+
+	.top data,
+	.front data {
+		top: 0.5em;
+	}
+
+	.back data,
+	.bottom data {
+		top: -0.5em;
+	}
+
+	.front,
+	.back {
+		position: absolute;
+		height: 1em;
+	}
+
+	.front {
+		top: 0;
+		z-index: 3;
+		transform-origin: bottom;
+		animation: flip-top 0.2s;
+	}
+
+	.back {
+		z-index: 2;
+		transform-origin: top;
+		transform: rotateX(-0.75turn);
+		animation: flip-bottom 0.2s 0.1s;
+	}
+
+	@keyframes flip-top {
+		0% {
+			transform: rotateX(0);
+		}
+		100% {
+			transform: rotateX(-0.25turn);
+		}
+	}
+
+	@keyframes flip-bottom {
+		0% {
+			transform: rotateX(-0.75turn);
+		}
+		100% {
+			transform: rotateX(-1turn);
+		}
+	}
+</style>

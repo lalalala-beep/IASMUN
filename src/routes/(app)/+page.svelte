@@ -9,6 +9,7 @@
 
 	import SecretaryGeneral from '$lib/assets/organizers/Aya Bawaba.webp';
 	import DeputySecretaryGeneral from '$lib/assets/organizers/Yousef Naser.webp';
+    import UnderSecretaryGeneral from '$lib/assets/organizers/Nour Mustafa.webp';
 
 	import Saos from 'saos';
 	import Countdown from '$lib/components/Countdown.svelte';
@@ -173,6 +174,44 @@
 			</div>
 		</div>
 	</div>
+
+	<div class="container under-sg">
+        <Saos once={true} animation="slide-bottom 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;">
+            <h1>Under-Secretary General's<br /><span class="welcome">Welcome</span></h1>
+        </Saos>
+
+        <div class="content">
+            <Saos once={true} animation="slide-left 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;">
+                <img src={UnderSecretaryGeneral} alt="Under-Secretary General" />
+            </Saos>
+
+            <div class="text">
+                <Saos once={true} animation="fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both">
+                    <p>
+                        Hi there!
+                        <br /><br />
+
+                        As the Under-Secretary-General, it's my pleasure to welcome each of you—delegates,
+                        advisors, and supporters—to IASMUN 2025. This event is more than just a conference;
+                        it's a gathering of passionate minds determined to make a difference. IASMUN thrives
+                        on the enthusiasm, resilience, and vision of its participants, and each one of you
+                        plays a vital role in making it extraordinary.
+                        <br /><br />
+
+                        In my role, I'm here to ensure that every aspect of this conference supports your
+                        journey and allows your ideas to flourish. Our team has worked with dedication to
+                        create a platform that's both challenging and inspiring, one that encourages
+                        collaboration and mutual respect. I'm excited to see the discussions and insights
+                        that will come out of this year's conference.
+                        <br /><br />
+
+                        Thank you for being part of IASMUN 2025. Let's make this a memorable experience for
+                        all involved. Welcome to IASMUN 2025.
+                    </p>
+                </Saos>
+            </div>
+        </div>
+    </div>
 </div>
 
 <style>

@@ -171,11 +171,7 @@
         </Saos>
 
         <div class="content">
-            <Saos once={true} animation="slide-left 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;">
-                <img src={UnderSecretaryGeneral} alt="Under-Secretary General" />
-            </Saos>
-
-            <div class="text">
+			 <div class="text">
                 <Saos once={true} animation="fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both">
                     <p>
                         Hi there!
@@ -208,6 +204,10 @@
                     </p>
                 </Saos>
             </div>
+
+			<Saos once={true} animation="slide-left 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;">
+                <img src={UnderSecretaryGeneral} alt="Under-Secretary General" />
+            </Saos>
         </div>
     </div>
 </div>

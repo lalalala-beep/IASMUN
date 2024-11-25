@@ -7,8 +7,8 @@
 	import { onMount } from 'svelte';
 	import { navigating } from '$app/stores';
 
-	import SecretaryGeneral from '$lib/assets/organizers/Aya Bawaba.webp';
-	import DeputySecretaryGeneral from '$lib/assets/organizers/Yousef Naser.webp';
+	import SecretaryGeneral from '$lib/assets/organizers/Hiba Ali.webp';
+	import DeputySecretaryGeneral from '$lib/assets/organizers/Nour Ashraf.webp';
     import UnderSecretaryGeneral from '$lib/assets/organizers/Nour Mustafa.webp';
 
 	import Saos from 'saos';
@@ -84,45 +84,29 @@
 			<div class="text">
 				<Saos once={true} animation="fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both">
 					<p>
-						Dear Esteemed Delegates, Advisors and Distinguished Guests,
-						<br /><br />
-						It is with immense pleasure and anticipation that I extend a warm welcome to you all to the
-						International Academic School Model United Nations 2024! As the Secretary-General of IASMUN,
-						I am honored to be part of this prestigious event, and I look forward to an enriching and
-						engaging experience for each and every participant.
+						Hello, delegates, chairs, and anyone else who wants to show up!
 						<br /><br />
 
-						This year's conference is not just about simulation; it's about fostering collaboration,
-						embracing diversity, and cultivating the spirit of diplomacy. As delegates, you play a
-						crucial role in this endeavor. Your passion, intellect, and commitment to diplomacy are
-						the driving forces behind the success of IASMUN.
+						I'm Hiba Naveed Ali, your Secretary-General for this year's IASMUN. And let me just say—it's 
+						an honour (and a whole lot of paperwork) to be here. This role is a once-in-a-lifetime opportunity 
+						for me. Literally. I'm not doing this again.
 						<br /><br />
 
-						Our dedicated team has worked tirelessly to ensure that this conference surpasses
-						expectations. From thought-provoking committees to expertly crafted agendas, we aim to
-						provide an environment that encourages intellectual growth, cultural exchange, and
-						lasting friendships.
+						But since I'm here, I promise to give it my all: from helping you navigate international crises to 
+						ensuring the Wi-Fi stays alive. You'll debate, collaborate, and maybe even accidentally become 
+						best friends with someone you were supposed to politically destroy (it happens).
 						<br /><br />
 
-						Whether you are a seasoned delegate or a first-time participant, IASMUN 2024 is your
-						stage to shine. Seize the opportunity to engage in constructive dialogue, showcase your
-						diplomatic skills, and contribute to the resolutions that will shape the future of our
-						global community.
+						So let's make this conference unforgettable—because trust me, I'll be remembering it every time 
+						I scroll through my gallery (and Instagram). Now, go make me proud and show the world why 
+						this MUN is the best one yet.
 						<br /><br />
 
-						I extend my best wishes to each of you as you embark on this MUN journey. May your
-						experiences be enlightening, your debates impactful, and your connections enduring.
-						<br /><br />
-
-						Looking forward to meeting you all and witnessing the remarkable contributions you will
-						undoubtedly bring to IASMUN 2024!
-						<br /><br />
-
-						Warmest Regards,
+						Best Regards,
 						<br />
-						Aya Bawaba
+						Hiba Naveed Ali
 						<br />
-						IASMUN'24 Secretary-General
+						IASMUN'25 Secretary-General
 					</p>
 				</Saos>
 			</div>
@@ -146,27 +130,33 @@
 			<div class="text">
 				<Saos once={true} animation="fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both">
 					<p>
-						Hello there,
+						Welcome to IASMUN 25!
 						<br /><br />
 
-						I am Yousef Naser, the Deputy Secretary-General, extending a warm welcome to the
-						International Academic School Model United Nations 2024!
+						It's my pleasure to welcome each of you to IASMUN 2025! As your Deputy Secretary-General,
+						I am thrilled to see the passion and commitment you bring to this conference. IASMUN is more 
+						than an event; it's a journey in diplomacy, leadership, and self-discovery, 
+						and I'm excited for what lies ahead for each of you.
 						<br /><br />
 
-						In my role, I ensure proper procedures are taken and support fellow organizers. Wherever
-						and whenever challenges arise, I am committed to helping. I want to express gratitude
-						and respect to each member, delegate, and advisor—your hard work has brought us to this
-						point. IASMUN is driven by ambitious individuals dedicated to its goals.
+						Leadership isn't about titles—it's about making a difference. Like figure skating, it's the grace in
+						each step that truly matters. At IASMUN, the focus is on learning, collaboration, and the shared
+						experience of tackling global challenges together.
 						<br /><br />
 
-						As Deputy Secretary-General, I am proud to be part of IASMUN and ready to assist with
-						any issues. Thank you for being here, and I look forward to a successful IASMUN 2024.
+						This is your chance to step into a diplomat's shoes, build valuable skills, and form meaningful 
+						connections. Upholding values of fairness, equality, and respect, we strive to reflect the inclusive 
+						world we all aim to create.
 						<br /><br />
 
-						Best regards,
+						Embrace every challenge, collaborate fully, and let this experience inspire you. Your dedication 
+						makes IASMUN truly special.
 						<br /><br />
 
-						Yousef Naser
+						Warm regards,
+						<br /><br />
+
+						Nour Ashraf
 						<br />
 						Deputy Secretary-General
 					</p>
@@ -207,6 +197,14 @@
 
                         Thank you for being part of IASMUN 2025. Let's make this a memorable experience for
                         all involved. Welcome to IASMUN 2025.
+						<br /><br />
+
+						Best regards,
+						<br /><br />
+
+						Nour Moustafa
+						<br />
+						Under Secretary-General
                     </p>
                 </Saos>
             </div>
@@ -311,6 +309,7 @@
 	.content img {
 		aspect-ratio: 1;
 		width: 420px;
+		object-fit: cover;
 		background-color: #326198;
 		flex: 0.4;
 	}

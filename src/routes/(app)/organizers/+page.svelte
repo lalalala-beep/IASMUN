@@ -2,7 +2,7 @@
 	import MediaHead from '$lib/assets/organizers/Cedra Khaled.webp';
 
 	import MediaMember1 from '$lib/assets/organizers/Abdullah Ismail.webp';
-	import MediaMember2 from '$lib/assets/organizers/Zeina-Ahmad.webp';
+	import MediaMember2 from '$lib/assets/organizers/Zeina Ahmad.webp';
 	import MediaMember3 from '$lib/assets/organizers/Faraat Khan.webp';
 	import MediaMember4 from '$lib/assets/organizers/Faisal Bunpha.webp';
 
@@ -10,7 +10,7 @@
 
 	import LogisticsMember1 from '$lib/assets/organizers/Firas Hussain.webp';
 	import LogisticsMember2 from '$lib/assets/organizers/Mohammed Shahdad.webp';
-	import LogisticsMember4 from '$lib/assets/organizers/Shehab-Alshehhi.webp';
+	import LogisticsMember4 from '$lib/assets/organizers/Shehab Alshehhi.webp';
 	import LogisticsMember5 from '$lib/assets/organizers/Beesan Saif.webp';
 	import LogisticsMember6 from '$lib/assets/organizers/Nouran Mohammed.webp';
 	import LogisticsMember7 from '$lib/assets/organizers/Maryam Belal.webp';
@@ -19,7 +19,15 @@
 
 	import PRMember1 from '$lib/assets/organizers/Mohammed Mohana.webp';
 
-	import ChairHead from '$lib/assets/dais/Rahaf Ahmed.webp';
+	import CommitteeHead from '$lib/assets/organizers/Joudy Ramy.webp';
+
+	import CommitteeMember1 from '$lib/assets/organizers/Jumana Wala.webp';
+
+	import CrisisHead from '$lib/assets/organizers/Aarim Zubair.webp';
+
+	import CrisisMember1 from '$lib/assets/organizers/Maryam Riyumkina.webp';
+
+	import VolunteeringHead from '$lib/assets/organizers/Al Hasan Ali.webp';
 
 	import Saos from 'saos';
 </script>
@@ -72,7 +80,7 @@
 				<p class="member-description">Abdullah Ismail</p>
 			</div>
 			<div class="member">
-				<img src={MediaMember2} alt="Zeina-Ahmad" />
+				<img src={MediaMember2} alt="Zeina Ahmad" />
 				<p class="member-description">Zeina Ahmad</p>
 			</div>
 			<div class="member">
@@ -134,8 +142,8 @@
 				<p class="member-description">Mohammed Shahdad</p>
 			</div>
 			<div class="member">
-				<img src={LogisticsMember4} alt="Shehab-Alshehhi" />
-				<p class="member-description">Shehab-Alshehhi</p>
+				<img src={LogisticsMember4} alt="Shehab Alshehhi" />
+				<p class="member-description">Shehab Alshehhi</p>
 			</div>
 			<div class="member">
 				<img src={LogisticsMember5} alt="Beesan Saif" />
@@ -197,7 +205,7 @@
 
 	<div class="container">
 		<Saos once={true} animation="slide-bottom 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;">
-			<h1>Head of Chairs</h1>
+			<h1>Head of Committees</h1>
 		</Saos>
 
 		<div class="head">
@@ -206,10 +214,10 @@
 				animation="slide-right-pic 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;"
 			>
 				<div class="head-container">
-					<img src={ChairHead} alt="" />
-					<p class="member-description head-name">Rahaf Ahmed</p>
+					<img src={CommitteeHead} alt="" />
+					<p class="member-description head-name">Joudy Ramy</p>
 					<p class="member-description">
-						<span class="role">Head of Chairs</span>
+						<span class="role">Head of Committees</span>
 					</p>
 				</div>
 			</Saos>
@@ -219,21 +227,119 @@
 				animation="slide-left-letter 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;"
 			>
 				<p class="head-letter">
-					Hello everyone, My name is Rahaf Ahmed, and I am thrilled to be taking on the role of head
-					of chairs for the second edition of our annual IASMUN conference, as well as chairing for
-					the Arab League EN. I am a senior in IAS, and my interest in politics and debate has
-					always been strong. However, my passion grew after my first MUN experience. In fact, I
-					enjoyed it so much that I immediately made the decision to pursue international relations
-					instead of law. With that being said, I extend a warm welcome to you at IASMUN. I hope
-					that this experience provides you with the opportunity to improve your public speaking
-					abilities, debate skills, research capabilities, quick thinking abilities, and confidence.
-					As head of chairs, I will put forth my greatest effort to fulfill my responsibilities and
-					ensure that IASMUN remains in your memories. I wish you all the best of luck.
+					Hey, it’s Joudy, your Head of Committees!
+					<br /><br />
+					I’m thrilled to welcome each of you—delegates, chairs, advisors, and pagers—to what’s sure to 
+					be an inspiring MUN experience. My focus is to make our committees the heart of this 
+					conference: places where meaningful debates unfold, fresh ideas are shared, and everyone 
+					grows. Each of you plays an essential role, from engaging in debates and guiding discussions to 
+					supporting and keeping everything running smoothly. Together, we’re building a space where 
+					everyone can make a lasting impact.
+					<br /><br />
+					Let’s create powerful memories and friendships that will last beyond the closing ceremony. Can’t 
+					wait to see you all in action!
+					<br /><br />
+					Best Regards,
+					<br />
+					Joudy Ramy
+				</p>
+			</Saos>
+		</div>
+		
+	    <div class="members">
+		    <div class="member">
+			    <img src={CommitteeMember1} alt="Jumana Wala" />
+			    <p class="member-description">Jumana Wala</p>
+		    </div>
+	    </div>
+	</div>
+
+	<div class="container crisis">
+		<Saos once={true} animation="slide-bottom 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;">
+			<h1>Crisis Team</h1>
+		</Saos>
+	
+		<div class="head">
+			<Saos
+				once={true}
+				animation="slide-right-pic 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;"
+			>
+				<div class="head-container">
+					<img src={CrisisHead} alt="" />
+					<p class="member-description head-name">Aarim Zubair</p>
+					<p class="member-description">
+						<span class="role">Head of Crisis</span>
+					</p>
+				</div>
+			</Saos>
+	
+			<Saos
+				once={true}
+				animation="slide-left-letter 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;"
+			>
+				<p class="head-letter">
+					My name is Aarim Zubair. I’m 16 years old. My house is in the northeast section of International 
+					City, where all the apartments are, and I am broke. I'm a student at International Academic 
+					School and I get home every day by 3:30 PM at the latest. I don’t smoke, nor do I vape. I’m in 
+					bed by 11 PM, and make sure I get eight hours of sleep, no matter what. After having a glass of 
+					warm milk and doing about twenty minutes of stretches before going to bed, I usually have no 
+					problems sleeping until morning. Just like a baby, I wake up without any fatigue or stress in the 
+					morning.
+					<br /><br />
+					I was told there were no issues at my last check-up. I’m trying to explain that I’m a person who 
+					wishes to live a very quiet life. That is how I deal with society, and I know that is what brings me 
+					happiness.
+				</p>
+			</Saos>
+		</div>
+	
+		<div class="members">
+			<div class="member">
+			    <img src={CrisisMember1} alt="Maryam Riyumkina" />
+			    <p class="member-description">Maryam Riyumkina</p>
+		    </div>
+		</div>
+	</div>
+
+	<div class="container volunteering">
+		<Saos once={true} animation="slide-bottom 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;">
+			<h1>Volunteering Team</h1>
+		</Saos>
+	
+		<div class="head">
+			<Saos once={true} animation="slide-right-pic 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;">
+				<div class="head-container">
+					<img src={VolunteeringHead} alt="" />
+					<p class="member-description head-name">Al Hasan Ali</p>
+					<p class="member-description">
+						<span class="role">Head of Volunteering</span>
+					</p>
+				</div>
+			</Saos>
+	
+			<Saos once={true} animation="slide-left-letter 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;">
+				<p class="head-letter">
+					Tonight´s the night
+					<br /><br />
+					And it´s going to happen again and again
+					<br /><br />
+					Has to happen
+					<br /><br />
+					Nice night
+					<br /><br />
+					Dubai it´s a great city
+					<br /><br />
+					I love the cuban food, beef
+					<br /><br />
+					Sandwiches my favorite
+					<br /><br />
+					But I´m hungry for something different now
 				</p>
 			</Saos>
 		</div>
 	</div>
 </div>
+
 
 <style>
 	@keyframes -global-slide-left-letter {

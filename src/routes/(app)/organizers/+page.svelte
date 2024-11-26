@@ -2,23 +2,22 @@
 	import MediaHead from '$lib/assets/organizers/Cedra Khaled.webp';
 
 	import MediaMember1 from '$lib/assets/organizers/Abdullah Ismail.webp';
-	import MediaMember2 from '$lib/assets/organizers/Anastasiya Seydalieva.webp';
-	import MediaMember3 from '$lib/assets/organizers/Cedra Khaled.webp';
-	import MediaMember4 from '$lib/assets/organizers/Nader Alkindy.webp';
+	import MediaMember2 from '$lib/assets/organizers/Zeina-Ahmad.webp';
+	import MediaMember3 from '$lib/assets/organizers/Faraat Khan.webp';
+	import MediaMember4 from '$lib/assets/organizers/Faisal Bunpha.webp';
 
-	import LogisticsHead from '$lib/assets/organizers/Zaid Alnajjar.webp';
+	import LogisticsHead from '$lib/assets/organizers/Sara Naser.webp';
 
-	import LogisticsMember1 from '$lib/assets/organizers/Ahmed Belari.webp';
-	import LogisticsMember2 from '$lib/assets/organizers/Sara Naser.webp';
-	import LogisticsMember4 from '$lib/assets/organizers/Abdullah Firas.webp';
-	import LogisticsMember5 from '$lib/assets/organizers/Rayan Nimer.webp';
-	import LogisticsMember6 from '$lib/assets/organizers/Turki Saad.webp';
+	import LogisticsMember1 from '$lib/assets/organizers/Firas Hussain.webp';
+	import LogisticsMember2 from '$lib/assets/organizers/Mohammed Shahdad.webp';
+	import LogisticsMember4 from '$lib/assets/organizers/Shehab-Alshehhi.webp';
+	import LogisticsMember5 from '$lib/assets/organizers/Beesan Saif.webp';
+	import LogisticsMember6 from '$lib/assets/organizers/Nouran Mohammed.webp';
+	import LogisticsMember7 from '$lib/assets/organizers/Maryam Belal.webp';
 
-	import PRHead from '$lib/assets/organizers/Ali Faisal.webp';
+	import PRHead from '$lib/assets/organizers/Hala Adnan.webp';
 
-	import PRMember1 from '$lib/assets/organizers/Al-Hassan Ali.webp';
-	import PRMember2 from '$lib/assets/organizers/Nour Ashraf.webp';
-	import PRMember3 from '$lib/assets/organizers/Haneen Saeed.webp';
+	import PRMember1 from '$lib/assets/organizers/Mohammed Mohana.webp';
 
 	import ChairHead from '$lib/assets/dais/Rahaf Ahmed.webp';
 
@@ -63,13 +62,6 @@
 					with our community and beyond. I’m thrilled to be part of an event that fosters global awareness, 
 					leadership, and cooperation, and I look forward to working with everyone to make IASMUN an 
 					unforgettable experience for all involved.
-					<br /><br />
-
-					Kindest Regards,
-					<br />
-					Cedra Khaled
-					<br />
-					IASMUN '25 Head of Media
 				</p>
 			</Saos>
 		</div>
@@ -80,16 +72,16 @@
 				<p class="member-description">Abdullah Ismail</p>
 			</div>
 			<div class="member">
-				<img src={MediaMember2} alt="Anastasiya Seydalieva" />
-				<p class="member-description">Anastasiya Seydalieva</p>
+				<img src={MediaMember2} alt="Zeina-Ahmad" />
+				<p class="member-description">Zeina Ahmad</p>
 			</div>
 			<div class="member">
-				<img src={MediaMember3} alt="Cedra Khaled" />
-				<p class="member-description">Cedra Khaled</p>
+				<img src={MediaMember3} alt="Faraat Khan" />
+				<p class="member-description">Faraat Khan</p>
 			</div>
 			<div class="member">
-				<img src={MediaMember4} alt="Nader Alkindy" />
-				<p class="member-description">Nader Alkindy</p>
+				<img src={MediaMember4} alt="Faisal Bunpha" />
+				<p class="member-description">Faisal Bunpha</p>
 			</div>
 		</div>
 	</div>
@@ -106,7 +98,7 @@
 			>
 				<div class="head-container">
 					<img src={LogisticsHead} alt="" />
-					<p class="member-description head-name">Zaid Alnajjar</p>
+					<p class="member-description head-name">Sara Naser</p>
 					<p class="member-description">
 						<span class="role">Head of Logistics</span>
 					</p>
@@ -118,37 +110,44 @@
 				animation="slide-left-letter 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;"
 			>
 				<p class="head-letter">
-					Hi there, my name is Zaid Alnajjar and i have the pleasure to be your head of logistics
-					for this years IASMUN. How great it is to be a part of this wonderful event and team, to
-					be the one making it even more fun than it already is. Our job as the logistics team will
-					be making sure you have an overall great experience, and to make sure that all your needs
-					are fulfilled. We will be responsible for the overall visual and fun side of this MUN and
-					that all of you have a great time overall. Best of luck to all the great delegates, and
-					people that will be joining us. See you soon!
+					Honorable Chairs, distinguished delegates, and esteemed guests,
+					<br /><br />
+					As the Head of Logistics, I am thrilled to welcome you all to this year’s Model United Nations
+					conference. Behind the scenes, a dedicated team has worked tirelessly to ensure that 
+					everything runs smoothly, from the setup of the venue to the smallest details that make this 
+					event possible. Our goal is to create an environment where you can focus on the important 
+					debates and discussions that will take place. If there’s anything you need, my team and I are 
+					here to help. Let’s work together to make this IASMUN'25 a truly memorable experience. 
+					<br /><br />
+					Thank you!
 				</p>
 			</Saos>
 		</div>
 
 		<div class="members">
 			<div class="member">
-				<img src={LogisticsMember1} alt="Ahmed Belari" />
-				<p class="member-description">Ahmed Belari</p>
+				<img src={LogisticsMember1} alt="Firas Hussain" />
+				<p class="member-description">Firas Hussain</p>
 			</div>
 			<div class="member">
-				<img src={LogisticsMember2} alt="Sara Naser" />
-				<p class="member-description">Sara Naser</p>
+				<img src={LogisticsMember2} alt="Mohammed Shahdad" />
+				<p class="member-description">Mohammed Shahdad</p>
 			</div>
 			<div class="member">
-				<img src={LogisticsMember4} alt="Abdullah Firas" />
-				<p class="member-description">Abdullah Firas</p>
+				<img src={LogisticsMember4} alt="Shehab-Alshehhi" />
+				<p class="member-description">Shehab-Alshehhi</p>
 			</div>
 			<div class="member">
-				<img src={LogisticsMember5} alt="Rayan Nimer" />
-				<p class="member-description">Rayan Nimer</p>
+				<img src={LogisticsMember5} alt="Beesan Saif" />
+				<p class="member-description">Beesan Saif</p>
 			</div>
 			<div class="member">
-				<img src={LogisticsMember6} alt="Turki Saad" />
-				<p class="member-description">Turki Saad</p>
+				<img src={LogisticsMember6} alt="Nouran Mohammed" />
+				<p class="member-description">Nouran Mohammed</p>
+			</div>
+			<div class="member">
+				<img src={LogisticsMember7} alt="Maryam Belal" />
+				<p class="member-description">Maryam Belal</p>
 			</div>
 		</div>
 	</div>
@@ -165,7 +164,7 @@
 			>
 				<div class="head-container">
 					<img src={PRHead} alt="" />
-					<p class="member-description head-name">Ali Faisal</p>
+					<p class="member-description head-name">Hala Adnan</p>
 					<p class="member-description">
 						<span class="role">Head of Public Relations</span>
 					</p>
@@ -177,32 +176,21 @@
 				animation="slide-left-letter 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;"
 			>
 				<p class="head-letter">
-					Hello distinguished delegates
+					Hello everyone!
 					<br /><br />
-					I extend a warm welcome to everyone attending the forthcoming IASMUN 2024. My name is Ali Faisal,
-					and I will be leading public relations for this year's event. Aside from that, I'm a 17-year-
-					old who enjoys spending most of my time with friends and studying. I'm grateful for the chance
-					to join this year's public relations team. We greatly appreciate your attendance at IASMUN
-					2024, and we are excited to have such esteemed guests as yourself with us for this important
-					event. Please do not hesitate to contact me or any other member of our team if there is anything
-					we can do to improve your experience or meet any particular needs you may have. Your presence
-					adds immeasurable value, and we look forward to creating memorable moments together.
+					I am Hala Adnan, a senior in IAS, and I have the pleasure of serving as 
+					the Head of Public Relations for IAS MUN 2025. It is my honor to welcome you all to 
+					this year's Model United Nations conference, where I ensure seamless communication, 
+					foster a welcoming environment, and share the inspiring work and resolutions 
+					developed here with a broader audience. Can't wait to welcome you all!
 				</p>
 			</Saos>
 		</div>
 
 		<div class="members">
 			<div class="member">
-				<img src={PRMember1} alt="Al-Hassan Ali" />
-				<p class="member-description">Al-Hassan Ali</p>
-			</div>
-			<div class="member">
-				<img src={PRMember2} alt="Nour Ashraf" />
-				<p class="member-description">Nour Ashraf</p>
-			</div>
-			<div class="member">
-				<img src={PRMember3} alt="Haneen Saeed" />
-				<p class="member-description">Haneen Saeed</p>
+				<img src={PRMember1} alt="Mohammed Mohana" />
+				<p class="member-description">Mohammed Mohana</p>
 			</div>
 		</div>
 	</div>

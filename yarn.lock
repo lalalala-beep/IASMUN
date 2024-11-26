@@ -57,7 +57,7 @@
   resolved "https://registry.npmjs.org/@rollup/rollup-win32-x64-msvc/-/rollup-win32-x64-msvc-4.26.0.tgz"
   integrity sha512-2x8MO1rm4PGEP0xWbubJW5RtbNLk3puzAMaLQd3B3JHVw4KcHlmXcO+Wewx9zCoo7EUFiMlu/aZbCJ7VjMzAag==
 
-"@sveltejs/adapter-auto@^3.0.0":
+"@sveltejs/adapter-auto@^3.3.1":
   version "3.3.1"
   resolved "https://registry.npmjs.org/@sveltejs/adapter-auto/-/adapter-auto-3.3.1.tgz"
   integrity sha512-5Sc7WAxYdL6q9j/+D0jJKjGREGlfIevDyHSQ2eNETHcB1TKlQWHcAo8AS8H1QdjNvSXpvOwNjykDUHPEAyGgdQ==

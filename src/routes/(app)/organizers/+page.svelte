@@ -1,5 +1,5 @@
 <script lang="ts">
-	import MediaHead from '$lib/assets/organizers/Mariyam Awan.webp';
+	import MediaHead from '$lib/assets/organizers/Cedra Khaled.webp';
 
 	import MediaMember1 from '$lib/assets/organizers/Abdullah Ismail.webp';
 	import MediaMember2 from '$lib/assets/organizers/Anastasiya Seydalieva.webp';
@@ -44,7 +44,7 @@
 			>
 				<div class="head-container">
 					<img src={MediaHead} alt="" />
-					<p class="member-description head-name">Mariyam Awan</p>
+					<p class="member-description head-name">Cedra Khaled</p>
 					<p class="member-description">
 						<span class="role">Head of Media</span>
 					</p>
@@ -56,21 +56,20 @@
 				animation="slide-left-letter 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;"
 			>
 				<p class="head-letter">
-					Dear Esteemed Delegates,
-					<br /><br />
-					On behalf of the IASMUN 2024 media team, I extend a warm welcome to each of you! I'm Mariyam
-					Awan, currently a senior in IAS, and as Head of Media for IASMUN 2024, I'm excited to capture
-					and bring to you all the information throughout the preparations and the memories made in this
-					years MUN. Your participation is integral to the success of this conference, and I am confident
-					that your dedication will leave a lasting mark. Let us, as delegates and organizers, collaboratively
-					make this conference an impactful and memorable experience to capture!
+					Hello! I’m Cedra Khaled, and I’m honored to serve as the Head of Media for the International 
+					Academic School Model United Nations (IASMUN). In this role, I lead a team that’s committed to
+					capturing the energy, discussions, and collaborative spirit that make IASMUN truly unique. Our 
+					goal is to showcase the hard work, creativity, and diplomacy of all the delegates through
+					with our community and beyond. I’m thrilled to be part of an event that fosters global awareness, 
+					leadership, and cooperation, and I look forward to working with everyone to make IASMUN an 
+					unforgettable experience for all involved.
 					<br /><br />
 
 					Kindest Regards,
 					<br />
-					Mariyam
+					Cedra Khaled
 					<br />
-					IASMUN '24 Head of Media
+					IASMUN '25 Head of Media
 				</p>
 			</Saos>
 		</div>
@@ -320,6 +319,7 @@
 	}
 	img {
 		width: 300px;
+		object-fit: cover;
 		aspect-ratio: 1;
 	}
 	.member-description {

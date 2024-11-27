@@ -56,14 +56,14 @@
 <svelte:window bind:innerWidth={width} />
 
 <svelte:head>
-	<title>IASMUN24 Home Page</title>
+	<title>IASMUN25 Home Page</title>
 
-	<meta name="description" content="The Official Website for IASMUN 2024!" />
+	<meta name="description" content="The Official Website for IASMUN 2025!" />
 </svelte:head>
 
 {#if showCountdown}
 	<div class="countdown">
-		<p>IASMUN 2024 Countdown</p>
+		<p>IASMUN 2025 Countdown</p>
 		<Countdown {countdown} />
 	</div>
 {/if}

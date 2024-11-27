@@ -89,7 +89,7 @@
 				>
 				<!-- <a class={$page.url.pathname == '/faq' ? 'active' : ''} href="/faq">FAQ</a> -->
 				<a class={$page.url.pathname == '/archives' ? 'active' : ''} href="/archives">Archives</a>
-				<a target="_blank" rel="noreferrer" href="https://forms.gle/1ajf1YMnf8tvWJ7m9"
+				<a target="_blank" rel="noreferrer" href="https://forms.gle/FHDowfX3pQz8XKZw9"
 					>Registration</a
 				>
 				<a href="mailto:iasmuninfo@gmail.com">Contact Us</a>

@@ -78,6 +78,10 @@
 			<div class="member">
 				<img src={MediaMember1} alt="Abdullah Ismail" />
 				<p class="member-description">Abdullah Ismail</p>
+				<div class="roles">
+					<span class="role">Co-head of Media</span>
+					<span class="role">Head of Photographers</span>
+				</div>
 			</div>
 			<div class="member">
 				<img src={MediaMember2} alt="Zeina Ahmad" />
@@ -136,6 +140,10 @@
 			<div class="member">
 				<img src={LogisticsMember1} alt="Firas Hussain" />
 				<p class="member-description">Firas Hussain</p>
+				<div class="roles">
+					<span class="role">Co-head of Logistics</span>
+					<span class="role">Head of Finance</span>
+				</div>
 			</div>
 			<div class="member">
 				<img src={LogisticsMember2} alt="Mohammed Shahdad" />
@@ -199,13 +207,14 @@
 			<div class="member">
 				<img src={PRMember1} alt="Mohammed Mohana" />
 				<p class="member-description">Mohammed Mohana</p>
+				    <span class="role">Co-head of Public Relations</span>
 			</div>
 		</div>
 	</div>
 
 	<div class="container">
 		<Saos once={true} animation="slide-bottom 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;">
-			<h1>Head of Committees</h1>
+			<h1>Committees Team</h1>
 		</Saos>
 
 		<div class="head">
@@ -250,6 +259,7 @@
 		    <div class="member">
 			    <img src={CommitteeMember1} alt="Jumana Wala" />
 			    <p class="member-description">Jumana Wala</p>
+				<span class="role">Co-head of Committees</span>
 		    </div>
 	    </div>
 	</div>
@@ -297,6 +307,7 @@
 			<div class="member">
 			    <img src={CrisisMember1} alt="Maryam Riyumkina" />
 			    <p class="member-description">Maryam Riyumkina</p>
+				<span class="role">Co-head of Crisis</span>
 		    </div>
 		</div>
 	</div>
@@ -381,7 +392,14 @@
 	}
 	.role {
 		font-family: 'Copperplate Gothic';
+		font-size: 18px;
 		text-transform: uppercase;
+	}
+	.roles {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    text-align: center;
 	}
 	.main {
 		display: grid;

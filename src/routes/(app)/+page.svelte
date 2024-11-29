@@ -9,7 +9,7 @@
 
 	import SecretaryGeneral from '$lib/assets/organizers/Hiba Ali.webp';
 	import DeputySecretaryGeneral from '$lib/assets/organizers/Nour Ashraf.webp';
-    import UnderSecretaryGeneral from '$lib/assets/organizers/Nour Mustafa.webp';
+    import UnderSecretaryGeneral from '$lib/assets/organizers/Nour Moustafa.webp';
 
 	import Saos from 'saos';
 	import Countdown from '$lib/components/Countdown.svelte';

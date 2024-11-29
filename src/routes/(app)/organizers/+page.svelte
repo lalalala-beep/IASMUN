@@ -2,7 +2,7 @@
 	import MediaHead from '$lib/assets/organizers/Cedra Khaled.webp';
 
 	import MediaMember1 from '$lib/assets/organizers/Abdullah Ismail.webp';
-	import MediaMember2 from '$lib/assets/organizers/Zeina Ahmad.webp';
+	import MediaMember2 from '$lib/assets/organizers/Zeina Ahmed.webp';
 	import MediaMember3 from '$lib/assets/organizers/Faraat Khan.webp';
 	import MediaMember4 from '$lib/assets/organizers/Faisal Bunpha.webp';
 
@@ -84,8 +84,8 @@
 				</div>
 			</div>
 			<div class="member">
-				<img src={MediaMember2} alt="Zeina Ahmad" />
-				<p class="member-description">Zeina Ahmad</p>
+				<img src={MediaMember2} alt="Zeina Ahmed" />
+				<p class="member-description">Zeina Ahmed</p>
 			</div>
 			<div class="member">
 				<img src={MediaMember3} alt="Faraat Khan" />

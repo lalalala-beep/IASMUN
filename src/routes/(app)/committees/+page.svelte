@@ -1,31 +1,32 @@
 <script lang="ts">
     import Saos from 'saos';
 
-    import GA1CHAIR from '$lib/assets/dais/Agrima Sood.webp';
-    import GA1COCHAIR from '$lib/assets/dais/Ali Shariq.webp';
+    import GA1CHAIR from '$lib/assets/dais/Daniyal Ali.webp';
+    import GA1COCHAIR from '$lib/assets/dais/Ceyra Jackson.webp';
 
-    import GA2CHAIR from '$lib/assets/dais/Basil Adnan.webp';
-    import GA2COCHAIR from '$lib/assets/dais/Reem Saleem.webp';
+    import GA2CHAIR from '$lib/assets/dais/Dona Shenushi.webp';
+    import GA2COCHAIR from '$lib/assets/dais/Omar Mohammed.webp';
 
-    import GA3CHAIR from '$lib/assets/dais/Zaynab.webp';
-    import GA3COCHAIR from '$lib/assets/dais/Hiba Ali.webp';
+    import GA3CHAIR from '$lib/assets/dais/Shreya Galrani.webp';
+    import GA3COCHAIR from '$lib/assets/dais/Taha Kamal.webp';
 
-    import GA4CHAIR from '$lib/assets/dais/Zaina Hisham.webp';
+    import UNHRCCHAIR from '$lib/assets/dais/Armin Dianat.webp';
+    import UNHRCCOCHAIR from '$lib/assets/dais/Manaal Khan.webp';
 
-    import GA5CHAIR from '$lib/assets/dais/Arushi Gulati.webp';
-    import GA5COCHAIR from '$lib/assets/dais/Joudy Ramy.webp';
+    import UNFCCCCHAIR from '$lib/assets/dais/Fahim Sulaiman.webp';
+    import UNFCCCCOCHAIR from '$lib/assets/dais/Kripa Gehi.webp';
 
-    import UNODCCHAIR from '$lib/assets/dais/Meera Anwahi.webp';
-    import UNODCCOCHAIR from '$lib/assets/dais/Nour Ashraf.webp';
+    import UNODCCHAIR from '$lib/assets/dais/Nida Gazzali.webp';
+    import UNODCCOCHAIR from '$lib/assets/dais/Aryesh Biswas.webp';
 
-    import WHOCHAIR from '$lib/assets/dais/Fatima Gazafi.webp';
-    import WHOCOCHAIR from '$lib/assets/dais/Rahma Ahmed.webp';
+    import WHOCHAIR from '$lib/assets/dais/Reem Saleem.webp';
+    import WHOCOCHAIR from '$lib/assets/dais/Shaurya Galrani.webp';
 
-    import ARABLEAGUECHAIR from '$lib/assets/dais/Rahaf Ahmed.webp';
-    import ARABLEAGUECOCHAIR from '$lib/assets/dais/Zainab Waqass.webp';
+    import ARABLEAGUECHAIR from '$lib/assets/dais/Laila Mohamed.webp';
+    import ARABLEAGUECOCHAIR from '$lib/assets/dais/Frank Toh.webp';
 
-    import UNICEFCHAIR from '$lib/assets/dais/Salma Hani.webp';
-    import UNICEFCOCHAIR from '$lib/assets/dais/Nour Mostafa.webp';
+    import UNICEFCHAIR from '$lib/assets/dais/Fares Basil.webp';
+    import UNICEFCOCHAIR from '$lib/assets/dais/Aarav Garg.webp';
 
     let width = 0;
 
@@ -34,7 +35,7 @@
             class: 'GA1',
             name: 'Disarmament & International Security Committee (GA1)',
             purpose:
-                ' GA1 is committed to advancing worldwide peace and security by tackling pressing concerns related to arms regulation, disarmament efforts, and conflict prevention',
+                'GA1 is committed to advancing worldwide peace and security by tackling pressing concerns related to arms regulation, disarmament efforts, and conflict prevention',
             topics: [
                 ' Electronic Warfare and AI: Regulating the Intersection of Technology and Global Security',
                 'Preventing Armed Conflict through Diplomacy: A ShiŌ from Military Build-up to Negotiation'
@@ -102,7 +103,7 @@
             cochair_name: 'Taha Kamal'
         },
         {
-            class: 'GA3',
+            class: 'UNHRC',
             name: 'United Nations Human Rights Council (UNHRC)',
             purpose:
                 ' UNHRC is dedicated to protecting and promoting human rights globally. This committee addresses violations, fosters accountability, and works toward justice and equality for all individuals.',
@@ -114,15 +115,15 @@
               As your head chair, I will make sure every committee session is fun and informational with a bit of chaos mixed in. I also aim to support you to my best abilities, so feel free to approach me at anytime and I will gladly give my honest feedback on your performance and also help you improve for the next committee sessions.
               I am very grateful for this amazing opportunity! A huge thank you to Beyoncé, and I wish you all a warm welcome to IASMUN'25. VIVA UNHRC!.`,
 
-            chair_photo: GA3CHAIR,
+            chair_photo: UNHRCCHAIR,
             chair_name: 'Armin Dianat',
             cochair_letter: `Hi delegates!
               I'm Manaal and I'm delighted to be serving as your co-chair for UNHRC at IASMUN'25. I hope to make this committee an unforgettable experience for every delegate present. I can't wait to witness awesome debates and everything this committee holds in store. Good luck! `,
-            cochair_photo: GA3COCHAIR,
+            cochair_photo: UNHRCCOCHAIR,
             cochair_name: 'Manaal Khan'
         },
         {
-            class: 'GA5',
+            class: 'UNFCCC',
             name: 'United Nations Framework Convention on Climate Change (UNFCCC)',
             purpose:
                 " UNFCCC focuses on combating climate change and its global impacts. This committee promotes sustainable solutions, international cooperation, and resilience for a greener future.",
@@ -138,12 +139,12 @@
               conference. I wish you all the very best!
 
             Head Chair: General Assembly 5`,
-            chair_photo: GA5CHAIR,
+            chair_photo: UNFCCCCHAIR,
             chair_name: 'Fahim Sulaiman',
             cochair_letter: `Hey everyone, I’m Kripa and im super excited to be chairing IASMUN! Can’t wait to hear everyone’s ideas, dive into debates, and work together on some interesting resolutions. It’s going to be a great experience for all of us!
             <br />
             So, brace yourselves for an event you surely won’t forget!`,
-            cochair_photo: GA5COCHAIR,
+            cochair_photo: UNFCCCCOCHAIR,
             cochair_name: 'Kripa Gehi'
         },
         {

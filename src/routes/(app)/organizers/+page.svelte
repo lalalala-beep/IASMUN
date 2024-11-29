@@ -5,6 +5,9 @@
 	import MediaMember2 from '$lib/assets/organizers/Zeina Ahmed.webp';
 	import MediaMember3 from '$lib/assets/organizers/Faraat Khan.webp';
 	import MediaMember4 from '$lib/assets/organizers/Faisal Bunpha.webp';
+	import MediaMember5 from '$lib/assets/organizers/Sarah Aqraa.webp';
+	import MediaMember6 from '$lib/assets/organizers/Anastasiya Seydalieva.webp';
+	import MediaMember7 from '$lib/assets/organizers/Gayoung Han.webp';
 
 	import LogisticsHead from '$lib/assets/organizers/Sara Naser.webp';
 
@@ -94,6 +97,18 @@
 			<div class="member">
 				<img src={MediaMember4} alt="Faisal Bunpha" />
 				<p class="member-description">Faisal Bunpha</p>
+			</div>
+			<div class="member">
+				<img src={MediaMember5} alt="Sarah Aqraa" />
+				<p class="member-description">Sarah Aqraa</p>
+			</div>
+			<div class="member">
+				<img src={MediaMember6} alt="Anastasiya Seydalieva" />
+				<p class="member-description">Anastasiya Seydalieva</p>
+			</div>
+			<div class="member">
+				<img src={MediaMember7} alt="Gayoung Han" />
+				<p class="member-description">Gayoung Han</p>
 			</div>
 		</div>
 	</div>

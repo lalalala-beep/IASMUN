@@ -13,6 +13,9 @@
     import UNHRCCHAIR from '$lib/assets/dais/Armin Dianat.webp';
     import UNHRCCOCHAIR from '$lib/assets/dais/Manaal Khan.webp';
 
+    import F1CHAIR from '$lib/assets/dais/Dev Dalal.webp';
+    import F1COCHAIR from '$lib/assets/dais/Zeyad Usama.webp';
+
     import UNFCCCCHAIR from '$lib/assets/dais/Fahim Sulaiman.webp';
     import UNFCCCCOCHAIR from '$lib/assets/dais/Kripa Gehi.webp';
 
@@ -233,7 +236,7 @@ I have always had a passion for debating, and I assure each and every one of you
             I’m Dev Dalal, the Race director (and your head chair) for the F1 committee at IASMUN. I am delighted to welcome you all to the Formula 1 Committee. Being an F1 diehard myself, I know the passion this sport stirs up. I can’t wait to see that same energy bubble up during committee sessions.   Whether this is your 1st race or your 402nd race, your voice matters; don't hesitate to make your voice heard. One cannot win a race without taking risks. In the ever-evolving world of Formula 1, you must be ready to embrace risks to stay ahead. I am sure that each and everyone one of you will bring something valuable to the paddock.
             Signing off,  
             Dev Dalal`,
-            chair_photo: ARABLEAGUECHAIR,
+            chair_photo: F1CHAIR,
             chair_name: 'Dev Dalal',
             cochair_letter: `Hello delegates!
             <br /><br />
@@ -244,7 +247,7 @@ I have always had a passion for debating, and I assure each and every one of you
             Let’s race into it—see you on the track! 🏎✨
             <br />
             Co-Chair, Arab League`,
-            cochair_photo: ARABLEAGUECOCHAIR,
+            cochair_photo: F1COCHAIR,
             cochair_name: 'Zeyad Usama'
         },
         {

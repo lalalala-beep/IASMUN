@@ -350,21 +350,6 @@
 	
 			<Saos once={true} animation="slide-left-letter 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;">
 				<p class="head-letter">
-					Tonight´s the night
-					<br /><br />
-					And it´s going to happen again and again
-					<br /><br />
-					Has to happen
-					<br /><br />
-					Nice night
-					<br /><br />
-					Dubai it´s a great city
-					<br /><br />
-					I love the cuban food, beef
-					<br /><br />
-					Sandwiches my favorite
-					<br /><br />
-					But I´m hungry for something different now
 				</p>
 			</Saos>
 		</div>

@@ -21,6 +21,7 @@
 	import PRHead from '$lib/assets/organizers/Hala Adnan.webp';
 
 	import PRMember1 from '$lib/assets/organizers/Mohammed Mohana.webp';
+	import PRMember2 from '$lib/assets/organizers/Nuha Osama.webp';
 
 	import CommitteeHead from '$lib/assets/organizers/Joudy Ramy.webp';
 
@@ -223,6 +224,10 @@
 				<img src={PRMember1} alt="Mohammed Mohana" />
 				<p class="member-description">Mohammed Mohana</p>
 				    <span class="role">Co-head of Public Relations</span>
+			</div>
+			<div class="member">
+				<img src={PRMember2} alt="Nuha Osama" />
+				<p class="member-description">Nuha Osama</p>
 			</div>
 		</div>
 	</div>

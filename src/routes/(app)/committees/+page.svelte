@@ -141,9 +141,7 @@ I'm Daniyal, a 16 year old Spaniard, who's absolutely crazy enthusiastic about e
              My name is Fahim and I'll be your Head Chair for UNFCCC. I feel honoured to be back here in IASMUN, only 
             this time as a chair. I hope to make this MUN conference a memorable and entertaining one for you all. And with you're
              diplomatic debates and unwavering support, I'm certain we will win the Best Committee Award towards the end of the
-              conference. I wish you all the very best!
-
-            Head Chair: General Assembly 5`,
+              conference. I wish you all the very best!`,
             chair_photo: UNFCCCCHAIR,
             chair_name: 'Fahim Sulaiman',
             cochair_letter: `Hey everyone, I’m Kripa and im super excited to be chairing IASMUN! Can’t wait to hear everyone’s ideas, dive into debates, and work together on some interesting resolutions. It’s going to be a great experience for all of us!
@@ -215,13 +213,11 @@ I have always had a passion for debating, and I assure each and every one of you
             cochair_letter: `Greetings Delegates, 
             <br /><br />
             I’m Frank and im honored to be serving as the co-chair of arab league at IASMUN’25. A little about me: I’m 15, Thai/Malay, and im from GEMS Winchester School Dubai. I’m super excited to meet everyone there and manage an interesting and exciting committee. I look forward to watching you engage in meaningful discussions and create impactful resolutions. ARAB LEAGUE ON TOP 🔥🔥‼‼‼ See you all at IASMUN!!
-            Once again, welcome to the Arab League. Of cooperation and progress, let us work hand in hand to create a legacy.
             <br /><br />
             Best regards,
             <br />
             Frank Toh
-            <br />
-            Co-Chair, Arab League`,
+            <br />`,
             cochair_photo: ARABLEAGUECOCHAIR,
             cochair_name: 'Frank Toh'
         },
@@ -248,7 +244,7 @@ I have always had a passion for debating, and I assure each and every one of you
             <br />
             Let’s race into it—see you on the track! 🏎✨
             <br />
-            Co-Chair, Arab League`,
+            `,
             cochair_photo: F1COCHAIR,
             cochair_name: 'Zeyad Usama'
         },

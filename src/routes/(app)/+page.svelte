@@ -98,7 +98,7 @@
 						<br /><br />
 
 						So let's make this conference unforgettable—because trust me, I'll be remembering it every time 
-						I scroll through my gallery (and Instagram). Now, go make me proud and show the world why 
+						I scroll through my gallery. Now, go make me proud and show the world why 
 						this MUN is the best one yet.
 						<br /><br />
 

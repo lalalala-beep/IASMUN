@@ -43,7 +43,9 @@
                 ' Electronic Warfare and AI: Regulating the Intersection of Technology and Global Security',
                 'Preventing Armed Conflict through Diplomacy: A ShiŌ from Military Build-up to Negotiation'
             ],
-            chair_letter: `I was bored,
+            chair_letter: `Hello there!
+
+I'm Daniyal, a 16 year old Spaniard, who's absolutely crazy enthusiastic about extracurriculars, public speaking, and all sorts of competitions! , and it’s an incredible honor to chair this the First general assembly at IASMUN 2025,  we'll tackle some of the world’s most pressing security issues, from disarmament to peacekeeping and arms control. This committee is a space for dialogue, diplomacy, and collaboration, where your ideas can make a real impact on the global stage. As we engage in passionate debates and work towards solutions, I encourage each of you to bring your best, whether you’re forging alliances, crafting resolutions, or negotiating for peace. Let’s make this session one to remember! All the best from your head chair, see you at the conference!.
             `,
             chair_photo: GA1CHAIR,
             chair_name: 'Daniyal Ali',

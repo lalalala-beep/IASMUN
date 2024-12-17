@@ -17,7 +17,7 @@
     import F1COCHAIR from '$lib/assets/dais/Zeyad Usama.webp';
 
     import UNFCCCCHAIR from '$lib/assets/dais/Fahim Sulaiman.webp';
-    import UNFCCCCOCHAIR from '$lib/assets/dais/Kripa Gehi.webp';
+    import UNFCCCCOCHAIR from '$lib/assets/dais/Maya AlMubarak.webp';
 
     import UNODCCHAIR from '$lib/assets/dais/Nida Gazzali.webp';
     import UNODCCOCHAIR from '$lib/assets/dais/Aryesh Biswas.webp';
@@ -148,7 +148,7 @@ I'm Daniyal, a 16 year old Spaniard, who's absolutely crazy enthusiastic about e
             <br />
             So, brace yourselves for an event you surely won’t forget!`,
             cochair_photo: UNFCCCCOCHAIR,
-            cochair_name: 'Kripa Gehi'
+            cochair_name: 'Maya AlMubarak'
         },
         {
             class: 'UNODC',

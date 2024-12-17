@@ -8,11 +8,15 @@
 	<div class="container">
 		<div class="main-guidebook">
 			<Saos animation="slide-bottom 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both" once={true}>
-				<h1 class="header">Delegate Handbook</h1>
+				<h1 class="header">IASMUN'25 Delegate Handbook</h1>
 			</Saos>
 
 			<Saos animation="slide-top 1.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both" once={true}>
-				<div class="handbook-link">Delegate Handbook</div>
+				<a
+					class="handbook-link"
+					href="/uploads/IASMUN'25 Delegate Handbook.pdf"
+					data-sveltekit-preload-data="off">IASMUN'25 Delegate Handbook</a
+				>
 			</Saos>
 		</div>
 

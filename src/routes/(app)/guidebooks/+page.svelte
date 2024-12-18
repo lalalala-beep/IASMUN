@@ -1,21 +1,21 @@
 <script lang="ts">
 	import Saos from 'saos';
 
-	let committees = ['GA1', 'GA2', 'GA3', 'GA4', 'GA5', 'UNODC', 'WHO', 'AL (EN)', 'UNICEF'];
+	let committees = ['GA1', 'GA2', 'GA3', 'UNHRC', 'UNFCCC', 'UNODC', 'WHO', 'AL (EN)', 'F1', 'UNICEF'];
 </script>
 
 <div class="wrapper">
 	<div class="container">
 		<div class="main-guidebook">
 			<Saos animation="slide-bottom 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both" once={true}>
-				<h1 class="header">IASMUN'25 Delegate Handbook</h1>
+				<h1 class="header">Delegate Handbook</h1>
 			</Saos>
 
 			<Saos animation="slide-top 1.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both" once={true}>
 				<a
 					class="handbook-link"
-					href="/uploads/IASMUN'25 Delegate Handbook.pdf"
-					data-sveltekit-preload-data="off">IASMUN'25 Delegate Handbook</a
+					href="/uploads/Delegate Handbook.pdf"
+					data-sveltekit-preload-data="off">Delegate Handbook</a
 				>
 			</Saos>
 		</div>
@@ -53,7 +53,7 @@
 			<Saos animation="slide-top 1.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both" once={true}>
 				<a
 					class="handbook-link"
-					href="/uploads/Country%20Matrix.pdf"
+					href="/uploads/Country Matrix24.pdf"
 					data-sveltekit-preload-data="off">Country Matrix</a
 				>
 			</Saos>

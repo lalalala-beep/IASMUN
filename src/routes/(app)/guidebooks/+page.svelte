@@ -33,7 +33,12 @@
 								index === 0 || index === 1 ? 1 : 1.5
 							}s cubic-bezier(0.250, 0.460, 0.450, 0.940) both`}
 						>
-						<div class="handbook-link">{committee}</div>
+						<a
+								class="handbook-link"
+								data-sveltekit-preload-data="off"
+								href={`/uploads/background-guides/${committee.replace(' ', '%20')}.pdf`}
+								>{committee}</a
+							>
 						</Saos>
 					</div>
 				{/each}
@@ -46,7 +51,11 @@
 			</Saos>
 
 			<Saos animation="slide-top 1.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both" once={true}>
-				<div class="handbook-link">Country Matrix</div>
+				<a
+					class="handbook-link"
+					href="/uploads/Country%20Matrix.pdf"
+					data-sveltekit-preload-data="off">Country Matrix</a
+				>
 			</Saos>
 		</div>
 	</div>

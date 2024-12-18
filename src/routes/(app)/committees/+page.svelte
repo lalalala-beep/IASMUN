@@ -144,9 +144,10 @@ I'm Daniyal, a 16 year old Spaniard, who's absolutely crazy enthusiastic about e
               conference. I wish you all the very best!`,
             chair_photo: UNFCCCCHAIR,
             chair_name: 'Fahim Sulaiman',
-            cochair_letter: `Hey everyone, I’m Kripa and im super excited to be chairing IASMUN! Can’t wait to hear everyone’s ideas, dive into debates, and work together on some interesting resolutions. It’s going to be a great experience for all of us!
-            <br />
-            So, brace yourselves for an event you surely won’t forget!`,
+            cochair_letter: `Helloo delegates!!! Welcome to UNFCCC, i’m Maya,
+            16, and i can’t wait to see you all debating and showing off your skills. In IASMUN,
+            we’re all gonna be working towards having a great time and finding solutions to help everyone.
+            Now that we’ve all been introduced, i’m gonna go sleep, SEE YOU ALLL!!!!`,
             cochair_photo: UNFCCCCOCHAIR,
             cochair_name: 'Maya AlMubarak'
         },

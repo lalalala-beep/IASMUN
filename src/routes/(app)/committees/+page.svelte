@@ -4,7 +4,7 @@
     import GA1CHAIR from '$lib/assets/dais/Daniyal Ali.webp';
     import GA1COCHAIR from '$lib/assets/dais/Ceyra Jackson.webp';
 
-    import GA2CHAIR from '$lib/assets/dais/Dona Shenushi.webp';
+    import GA2CHAIR from '$lib/assets/dais/Vivaan Gehi.webp';
     import GA2COCHAIR from '$lib/assets/dais/Omar Mohammed.webp';
 
     import GA3CHAIR from '$lib/assets/dais/Shreya Galrani.webp';
@@ -20,7 +20,7 @@
     import UNFCCCCOCHAIR from '$lib/assets/dais/Maya AlMubarak.webp';
 
     import UNODCCHAIR from '$lib/assets/dais/Nida Gazzali.webp';
-    import UNODCCOCHAIR from '$lib/assets/dais/Aryesh Biswas.webp';
+    import UNODCCOCHAIR from '$lib/assets/dais/Allen Jinu Philip.webp';
 
     import WHOCHAIR from '$lib/assets/dais/Reem Saleem.webp';
     import WHOCOCHAIR from '$lib/assets/dais/Shaurya Galrani.webp';
@@ -68,13 +68,16 @@ I'm Daniyal, a 16 year old Spaniard, who's absolutely crazy enthusiastic about e
                 ' Place holder Corporate Social Responsibility (CSR) in Developing Economies: Balancing Profit and People.',
                 ' Promoting Fair Trade: Empowering Producers in Developing Countries.'
             ],
-            chair_letter: `Dear Esteemed delegates,
+            chair_letter: `Hello delegates !
                 <br /> <br />
-                Welcome all delegates to GA2! I am Dona Shenushi and I am delighted to be your Head Chair for this committee. No matter
-                 how many MUN's you have attended, us chairs at GA2 will ensure that you leave the committee with new skills, new
-                  friends and a new perspective over global politics. Let's make GA2 a memorable committee session. See you all there!.`,
+                My name is Vivaan Gehi and I will be your head chair for GA2 (aka ECOFIN) in this edition of IASMUN,
+                I look forward to providing a productive and inclusive environment sparking thought-provoking debate as well as interacting
+                and building connections with one another that will guide and assist us not only today, but years ahead down the line,
+                I also wish to iterate that words cannot describe how excited I am to meet each and every one of you
+                and witness your debates that will shape the fate of the Second General Assembly at IASMUN,
+                 I encourage all of you to engage in discussions displaying the true potential of not only you as delegates alone, but GA2 as a whole.`,
             chair_photo: GA2CHAIR,
-            chair_name: 'Dona Shenushi',
+            chair_name: 'Vivaan Gehi',
             cochair_letter: `It’s my pleasure to welcome you all to IASMUN25 and to the exciting discussions ahead in the second 
             General Assembly (GA-2) committee. My name is Omar Mohammed, I’m 17 years old, and I’m thrilled to serve as your co-chair
             this year. I can’t wait to dive into the debates and witness the thrilling exchanges that will keep us all on our toes
@@ -169,7 +172,7 @@ I'm Daniyal, a 16 year old Spaniard, who's absolutely crazy enthusiastic about e
 My name is Aryesh Biswas and I am both honored and privileged to be your co-chair for UNODC at IASMUN!
 I have always had a passion for debating, and I assure each and every one of you, whether you’re experienced or not, you will have a lot to take away from this conference, and most importantly, have an amazing time! Looking forward to meeting each and everyone of you!`,
             cochair_photo: UNODCCOCHAIR,
-            cochair_name: 'Aryesh Biswas'
+            cochair_name: 'Allen Jinu Philip'
         },
         {
             class: 'WHO',

@@ -7,6 +7,15 @@
 	</div>
 </div>
 
+<div class="wrapper">
+	<div class="container">
+		<h1>Archives:</h1>
+		<div class="years">
+			<a href="https://iasmun.com/2023">2023</a>
+		</div>
+	</div>
+</div>
+
 <svelte:head>
 	<title>Archives</title>
 
